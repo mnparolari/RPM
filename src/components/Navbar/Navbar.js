@@ -1,11 +1,11 @@
-import logo from './rpmLogo.png';
-import iso from './rpmIso.png';
+import logo from '../../assets/img/rpmLogo.png';
+import iso from '../../assets/img/rpmIso.png';
 import NavbarItem from './NavbarItem';
 import CartWidget from '../CartWidget/CartWidget';
 
-function NavbarBoot() {
-    return (
-        <nav>
+function NavbarBoot() { 
+return (
+    <nav>
             <div className="nav-wrapper">
                 <div className="brand">
                     <a href="#" className="brand-logo"><img src={logo} className="App-logo" alt="logo" /></a>
