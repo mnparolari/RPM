@@ -1,22 +1,12 @@
 .App {
     text-align: center;
     font-family:'Roboto Mono', monospace;
+    /*background-color: #2F7864ff;*/
 }
 
-.App-logo {
-    height: 20vmin;
-    pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 10s linear;
-    }
-}
 
-.App-header {
-    background-color: #2F7864ff;
-    height: 100%;
+/*.App-header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,75 +14,10 @@
     font-size: calc(10px + 2vmin);
 }
 
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
 
-    to {
-        transform: rotate(360deg);
-    }
-}
 
-.brand {
+.App-main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
-.right {
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    text-align: center;
-    margin-left: 100px;
-
-}
-
-.menu {
-    padding: 30px;
-    text-decoration: none;
-    color: #D4CDB1ff;
-    font-weight: bold;
-}
-
-.carrito {
-    text-decoration: none;
-    text-align: center;
-    color: #DFD0A5ff;
-    margin-left: 100px;
-}
-
-.new {
-    font-weight: bold;
-    border: #DF9D72ff solid 3px;
-    border-radius: 50%;
-    background-color:#DF9D72ff ;
-    font-size: 1rem;
-    color: #1F705Dff;
-}
-
-.welcome {
-    background-color: #DED7B3ff;
-    width: 100%;
-    font-size: 1rem;
-    text-align: center;
-}
-
-.title {
-    text-align: center;
-}
-
-.itemCount {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
+}*/
