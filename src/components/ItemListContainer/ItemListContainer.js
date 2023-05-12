@@ -9,22 +9,21 @@ import FetchAndLoading from '../HOC/FetchAndLoading';
 
 const ItemListContainer = (props) => {
 
-const {loading} = props;
+    const { prod, loading } = props;
 
     return (
         <div className="body-section">
             <h2 className="title animate__animated animate__zoomIn">{props.greeting}</h2>
-            <section className="section-select">
-                <div className="spinner">
-                    {loading && <Spinner/>}
-                </div>
-                {!loading && 
-                <div> 
+            <div className="spinner">
+                {loading && <Spinner />}
+            </div>
+            {!loading &&
+                <div className="section-select">
                     <Filters />
-                    <ItemList />
+                    <ItemList prod={prod} />
                 </div>
-                }
-            </section>
+            }
+
         </div>
     )
 }

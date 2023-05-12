@@ -1,20 +1,23 @@
-import React from 'react';
+import React /*{ useState, useEffect }*/ from 'react';
 import './itemDetailStyle.css';
 import ItemDetail from './ItemDetail';
 import Spinner from '../Spinner/Spinner';
 import FetchAndLoading from '../HOC/FetchAndLoading';
+//import { useParams } from 'react-router-dom';
 
 const ItemDetailContainer = (props) => {
 
-  const { loading, prod } = props;
+  const { prod, loading } = props;
+
+  
 
   return (
     <div>
       <div className="spinner">
         {loading && <Spinner />}
       </div>
-      <div>{!loading && 
-        <ItemDetail title={prod.title} band={prod.band} detail={prod.detail} description={prod.description} price={prod.price} pictureUrl={prod.pictureUrl} stock={prod.stock} key={prod.id} />
+      <div>{!loading &&
+        <ItemDetail prod={prod} />
       }
       </div>
     </div>
@@ -22,6 +25,3 @@ const ItemDetailContainer = (props) => {
 }
 
 export default FetchAndLoading(ItemDetailContainer)
-/*{!loading && prod.map(prod => (
-        <ItemDetail id={prod.id} title={prod.title} band={prod.band} detail={prod.detail} description={prod.description} price={prod.price} pictureUrl={prod.pictureUrl} stock={prod.stock} key={prod.id} />
-      ))}*/

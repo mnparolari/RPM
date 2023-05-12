@@ -1,13 +1,14 @@
 import React from 'react';
 import './itemListStyle.css';
 import Item from './Item';
-import FetchAndLoading from '../HOC/FetchAndLoading';
+
 
 
 const ItemList = (props) => {
 
-    const {prod} = props;
+    const { prod } = props;
 
+    
     return (
         <div>
             <div className='item-list'>
@@ -19,5 +20,5 @@ const ItemList = (props) => {
     )
 }
 
-export default FetchAndLoading(ItemList)
+export default ItemList
 

@@ -5,7 +5,6 @@ import ItemCount from './ItemCount'
 const ItemDetail = (props) => {
     const { title, band, detail, description, price, pictureUrl, stock } = props;
 
-
     return (
         <section className="detail-section">
             <div className="detail-product">

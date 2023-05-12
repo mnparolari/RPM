@@ -16,7 +16,7 @@ const Item = (props) => {
                 <h5 className="c-title">{title}</h5>
                 <h6 className="c-band">{band}</h6>
                 <p className="c-text">${price}</p>
-                <button className="btn" id="btn-detail" type="button" onClick={()=>navigate(`/item/${id}`)}>Ver detalle del producto</button>
+                <button className="btn" id="btn-detail" type="button" onClick={() => navigate(`/item/${id}`)}>Ver detalle del producto</button>
                 <p className="c-stock">Stock disponible: {stock} </p>
             </div>
         </div>
