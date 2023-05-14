@@ -7,24 +7,24 @@ import CartWidget from '../CartWidget/CartWidget';
 function NavbarBoot() {
     const navbarItems = [
         {
-            path: "/novedades",
-            name: "Novedades"
+            path: "/destacados",
+            name: "Destacados"
         },
         {
-            path: "/clasicos",
-            name: "Clásicos"
+            path: "/nacionales",
+            name: "Nacionales"
+        },
+        {
+            path: "/internacionales",
+            name: "Internacionales"
         },
         {
             path: "/usados",
             name: "Usados"
         },
         {
-            path: "/curiosidades",
-            name: "Curiosidades"
-        },
-        {
-            path: "/ver-todo",
-            name: "Ver todo"
+            path: "/clasicos",
+            name: "Clásicos"
         },
 
 

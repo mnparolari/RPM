@@ -2,7 +2,7 @@ import React from 'react';
 import './brand.css';
 import logo from '../../assets/img/rpmLogo.png';
 import iso from '../../assets/img/rpmIso.png';
-import {NavLink} from 'react-router-dom'
+import {NavLink} from 'react-router-dom';
 
 const Brand = () => {
     return (

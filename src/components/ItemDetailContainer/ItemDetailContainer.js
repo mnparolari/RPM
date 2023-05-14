@@ -1,15 +1,16 @@
-import React /*{ useState, useEffect }*/ from 'react';
+import React from 'react';
 import './itemDetailStyle.css';
 import ItemDetail from './ItemDetail';
 import Spinner from '../Spinner/Spinner';
 import FetchAndLoading from '../HOC/FetchAndLoading';
-//import { useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
 const ItemDetailContainer = (props) => {
 
-  const { prod, loading } = props;
+const { prod, loading } = props;
 
-  
+const {id} = useParams()
+const product = prod.find(item => item.id === Number(id))
 
   return (
     <div>
@@ -17,7 +18,7 @@ const ItemDetailContainer = (props) => {
         {loading && <Spinner />}
       </div>
       <div>{!loading &&
-        <ItemDetail prod={prod} />
+        <ItemDetail prod={product} />
       }
       </div>
     </div>

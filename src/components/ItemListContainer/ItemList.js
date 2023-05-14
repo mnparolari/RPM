@@ -3,17 +3,15 @@ import './itemListStyle.css';
 import Item from './Item';
 
 
-
 const ItemList = (props) => {
 
     const { prod } = props;
 
-    
     return (
         <div>
             <div className='item-list'>
                 {prod.map(item => (
-                    <Item id={item.id} title={item.title} band={item.band} price={item.price} pictureUrl={item.pictureUrl} stock={item.stock} key={item.id} />
+                    <Item id={item.id} title={item.title} band={item.band} price={item.price} pictureUrl={item.pictureUrl} categorie={item.categorie} stock={item.stock} key={item.id} />
                 ))}
             </div>
         </div>

@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react'
+import {useState, useEffect} from 'react';
 
 
 const useCount = (props) => {
@@ -29,7 +29,7 @@ const useCount = (props) => {
     };
 
     const reset = () => {
-        setValue(initial || 0)
+        setValue(initial || 1)
     };
 
     return {value, block, onAdd, onRemove, reset}

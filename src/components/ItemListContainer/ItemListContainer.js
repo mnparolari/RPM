@@ -1,26 +1,28 @@
 import React from 'react';
 import './itemListStyle.css';
-import 'animate.css';
-import Filters from '../Filters/Filters';
+import Filters from '../Filters/FiltersProducts';
 import ItemList from './ItemList'
 import Spinner from '../Spinner/Spinner';
 import FetchAndLoading from '../HOC/FetchAndLoading';
+import { useParams } from 'react-router-dom';
 
 
 const ItemListContainer = (props) => {
 
     const { prod, loading } = props;
 
+    const {categorie} = useParams()
+    const categorieProd = prod.filter((cat) => cat.categorie === categorie)
+
     return (
         <div className="body-section">
-            <h2 className="title animate__animated animate__zoomIn">{props.greeting}</h2>
             <div className="spinner">
                 {loading && <Spinner />}
             </div>
             {!loading &&
                 <div className="section-select">
                     <Filters />
-                    <ItemList prod={prod} />
+                    <ItemList prod={categorieProd} />
                 </div>
             }
 

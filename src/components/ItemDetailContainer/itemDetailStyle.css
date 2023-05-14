@@ -1,20 +1,53 @@
 .detail-section {
     display: flex;
     flex-direction: column;
+    background-color: #DED7B3ff;
+    align-items: start;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.back-icon {
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+.back{
+    width: 100px;
+}
+
+.icon-back {
+    display: flex;
+
+    color:#DED7B3ff;
+}
+
+.icon-back p {
+    margin-right: 5px;
 }
 
 .detail-product {
     display: flex;
     justify-content: center;
-    align-items: start;
 }
 
 .detail-img {
     margin-left: 100px;
+    border-radius: 2%;
+}
+
+.detail-textBox {
+    display: flex;
+    flex-direction: column;
 }
 
 .detail-text {
     margin-right: 100px;
+    border: 1px #fff solid;
+    border-radius: 10%;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
 
 .detail-title {
@@ -31,6 +64,34 @@
     text-align: justify;
 }
 
+.detail-credit {
+    width: 600px;
+    height: 150px;
+    margin-right: 100px;
+    border: 1px #fff solid;
+    border-radius: 3%;
+    margin-left: 20px;
+    padding-left: 20px;
+    margin-top: 8px;
+    background-color: #fff;
+}
+
+.detail-fees {
+    display: flex;
+    align-items: center;
+}
+
+#form-fees {
+    width: 250px;
+    margin-top: 20px;
+}
+
+.fees {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
 .detail-descriptionBox {
     margin-left: 100px;
     margin-right: 100px;
@@ -41,7 +102,7 @@
     text-align: left;
 }
 
-.itemCount {
+.item-count {
     display: flex;
     flex-direction: row;
     justify-content: center;
