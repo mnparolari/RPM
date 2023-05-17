@@ -11,7 +11,7 @@ const ItemList = (props) => {
         <div>
             <div className='item-list'>
                 {prod.map(item => (
-                    <Item id={item.id} title={item.title} band={item.band} price={item.price} pictureUrl={item.pictureUrl} categorie={item.categorie} stock={item.stock} key={item.id} />
+                    <Item id={item.id} title={item.title} band={item.band} price={item.price} pictureUrl={item.pictureUrl} category={item.category} stock={item.stock} key={item.id} />
                 ))}
             </div>
         </div>

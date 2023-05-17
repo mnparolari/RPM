@@ -9,7 +9,7 @@
 .greeting-home {
     font-size: 1.9rem;
     font-weight: bold;
-    padding-top: 7%;
+    padding-top: 8%;
     padding-bottom: 7%;
     margin-left: 280px;
     float: left;
@@ -21,7 +21,6 @@
     right: 0;
     width: 10;
     background: #DF9D72ff;
-    border-left: 1px solid #000;
     animation: maquina 5s infinite alternate steps(130)
 }
 

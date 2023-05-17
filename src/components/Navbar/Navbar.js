@@ -30,23 +30,27 @@ function NavbarBoot() {
 
     ]
     return (
-        <nav>
-            <div className="nav-wrapper">
-                <ul id="nav-mobile" className="nav-item hide-on-med-and-down">
-                {navbarItems.map(({path,name})=> (
-                    <NavbarItem path={path} name={name} />
-                ))}
-                </ul>
-                <form>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <div className="container-fluid">
+                <form className="form-search">
                     <div className="input-field small">
                         <input placeholder='Buscá tu producto' className="input-search" id="search" type="search" required />
-                        <label className="label-icon" for="search"><i class="material-icons">search</i></label>
-                        <i className="material-icons">close</i>
+                        <label className="label-icon" for="search"></label>
                     </div>
                 </form>
-                <CartWidget />
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarScroll">
+                    <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+                        {navbarItems.map(({ path, name }) => (
+                            <NavbarItem path={path} name={name} />
+                        ))}
+                    </ul>
+                </div>
+                <div><CartWidget /></div>
             </div>
-        </nav>
+        </nav >
     );
 }
 

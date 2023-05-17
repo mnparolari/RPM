@@ -14,8 +14,8 @@ const Rutas = () => {
             <Navbar/>
             <Routes>
                 <Route path="/" element={<Home greeting={"Bienvenido/a. Estás en RPM, la casa del vinílo."}/>} />
-                <Route path="/:categorie" element={<ItemListContainer />} />
-                <Route path="/:categorie/:id" element={<ItemDetailContainer />} />
+                <Route path="/:category" element={<ItemListContainer />} />
+                <Route path="/:category/:id" element={<ItemDetailContainer />} />
                 <Route path="/cart" element={<Cart/>} />
             </Routes>
         </BrowserRouter>

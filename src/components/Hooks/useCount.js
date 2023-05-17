@@ -18,21 +18,17 @@ const useCount = (props) => {
     }, [value]);
 
 
-    const onAdd = () => {
+    const increment = () => {
         setValue(value + 1);
     };
 
-    const onRemove = () => {
+    const decrement = () => {
         if (value > 1) {
             setValue(value - 1);
         };
     };
 
-    const reset = () => {
-        setValue(initial || 1)
-    };
-
-    return {value, block, onAdd, onRemove, reset}
+    return { value, block, increment, decrement }
 
 }
 

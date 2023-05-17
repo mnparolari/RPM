@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './itemDetailStyle.css';
 import ItemCount from './ItemCount';
-import { NavLink } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const ItemDetail = ({ prod }) => {
     const { title, band, detail, description, price, pictureUrl, stock } = prod;
@@ -21,17 +21,22 @@ const ItemDetail = ({ prod }) => {
         }
     ]
 
-    
+    const navigate = useNavigate();
 
+    const [valueToAdd, setValueToAdd] = useState(0)
+
+    const handleOnAdd = (value) => {
+        setValueToAdd(value)
+    }
 
     return (
         <section className="detail-section">
             <div className="back-icon">
                 <button className="back btn-small">
-                    <NavLink to={-1} className="icon-back">
+                    <Link to={-1} className="icon-back">
                         <i className="material-icons">arrow_back</i>
                         <p>Volver</p>
-                    </NavLink>
+                    </Link>
                 </button>
             </div>
             <div className="detail-product">
@@ -44,7 +49,15 @@ const ItemDetail = ({ prod }) => {
                         <h5 className="detail-price">${price}</h5>
                         <h6>Detalles: <br /></h6>
                         <p className="detail-detail">{detail}</p>
-                        <ItemCount initial={1} stock={stock} />
+                        {valueToAdd > 0 ? (
+                            <div>
+                                <button onClick={() => navigate(`/cart`)} className="Optional waves-effect waves-light btn-small">Finalizar Compra</button>
+                            </div>
+                            ) : (
+                            <ItemCount initial={1} stock={stock} onAdd={handleOnAdd}/>
+                            )
+                            
+                        }
                     </div>
                     <div className="detail-credit">
                         <h6>Calculá tus cuotas:</h6>

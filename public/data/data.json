@@ -7,7 +7,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/maiden-1.jpg",
         "price": 5500,
-        "categorie": "destacados",
+        "category": "destacados",
+        "gender": "rock",
+        "type": "nuevo",
         "stock": 5
     },
     {
@@ -18,7 +20,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/judas-1.jpg",
         "price": 7200,
-        "categorie": "destacados",
+        "category": "internacionales",
+        "gender": "rock",
+        "type": "nuevo",
         "stock": 10
     },
     {
@@ -29,7 +33,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/accept-1.jpg",
         "price": 4800,
-        "categorie": "destacados",
+        "category": "internacionales",
+        "gender": "rock",
+        "type": "nuevo",
         "stock": 7
     },
     {
@@ -40,7 +46,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/motorhead-1.jpg",
         "price": 8600,
-        "categorie": "destacados",
+        "category": "destacados",
+        "gender": "rock",
+        "type": "nuevo",
         "stock": 6
     },
     {
@@ -51,7 +59,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/metallica-1.jpg",
         "price": 9300,
-        "categorie": "destacados",
+        "category": "internacionales",
+        "gender": "rock",
+        "type": "nuevo",
         "stock": 3
     },
     {
@@ -62,7 +72,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/megadeth-1.jpg",
         "price": 7500,
-        "categorie": "destacados",
+        "category": "internacionales",
+        "gender": "rock",
+        "type": "nuevo",
         "stock": 12
     },
     {
@@ -73,7 +85,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/system-1.jpg",
         "price": 4700,
-        "categorie": "destacados",
+        "category": "destacados",
+        "gender": "rock",
+        "type": "nuevo",
         "stock": 4
     },
     {
@@ -84,7 +98,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/pantera-1.jpg",
         "price": 4900,
-        "categorie": "destacados",
+        "category": "destacados",
+        "gender": "rock",
+        "type": "nuevo",
         "stock": 8
     },
     {
@@ -95,7 +111,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/v8-1.jpg",
         "price": 5700,
-        "categorie": "nacionales",
+        "category": "nacionales",
+        "gender": "rock",
+        "type": "nuevo",
         "stock": 6
     },
     {
@@ -106,7 +124,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/kamikaze-1.jpg",
         "price": 5000,
-        "categorie": "nacionales",
+        "category": "nacionales",
+        "gender": "rock",
+        "type": "nuevo",
         "stock": 2
     },
     {
@@ -117,7 +137,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/malon-1.jpg",
         "price": 4200,
-        "categorie": "nacionales",
+        "category": "nacionales",
+        "gender": "rock",
+        "type": "nuevo",
         "stock": 9
     },
     {
@@ -128,7 +150,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/almafuerte-1.jpg",
         "price": 5200,
-        "categorie": "nacionales",
+        "category": "nacionales",
+        "gender": "rock",
+        "type": "nuevo",
         "stock": 5
     },
     {
@@ -139,7 +163,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/sumo-1.jpg",
         "price": 4600,
-        "categorie": "nacionales",
+        "category": "destacados",
+        "gender": "rock",
+        "type": "nuevo",
         "stock": 7
     },
     {
@@ -150,7 +176,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/redondos-1.jpg",
         "price": 5900,
-        "categorie": "nacionales",
+        "category": "destacados",
+        "gender": "rock",
+        "type": "nuevo",
         "stock": 10
     },
     {
@@ -161,7 +189,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/piojos-1.jpg",
         "price": 4000,
-        "categorie": "nacionales",
+        "category": "nacionales",
+        "gender": "rock",
+        "type": "nuevo",
         "stock": 8
     },
     {
@@ -172,7 +202,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/pelotas-1.jpg",
         "price": 4300,
-        "categorie": "nacionales",
+        "category": "nacionales",
+        "gender": "rock",
+        "type": "nuevo",
         "stock": 3
     },
     {
@@ -183,7 +215,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/nirvana-1.jpg",
         "price": 8900,
-        "categorie": "internacionales",
+        "category": "internacionales",
+        "gender": "rock",
+        "type": "nuevo",
         "stock": 4
     },
     {
@@ -194,7 +228,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/elephant-1.jpg",
         "price": 7300,
-        "categorie": "internacionales",
+        "category": "destacados",
+        "gender": "pop",
+        "type": "nuevo",
         "stock": 2
     },
     {
@@ -205,7 +241,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/monkeys-1.jpg",
         "price": 9200,
-        "categorie": "internacionales",
+        "category": "internacionales",
+        "gender": "rock",
+        "type": "nuevo",
         "stock": 3
     },
     {
@@ -216,7 +254,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/strokes-1.jpg",
         "price": 9100,
-        "categorie": "internacionales",
+        "category": "internacionales",
+        "gender": "rock",
+        "type": "nuevo",
         "stock": 5
     },
     {
@@ -227,7 +267,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/pearl-1.jpg",
         "price": 8900,
-        "categorie": "internacionales",
+        "category": "internacionales",
+        "gender": "rock",
+        "type": "nuevo",
         "stock": 4
     },
     {
@@ -238,7 +280,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/ratm-1.jpg",
         "price": 7300,
-        "categorie": "internacionales",
+        "category": "destacados",
+        "gender": "rock",
+        "type": "nuevo",
         "stock": 2
     },
     {
@@ -249,7 +293,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/audioslave-1.jpg",
         "price": 9200,
-        "categorie": "internacionales",
+        "category": "internacionales",
+        "gender": "rock",
+        "type": "nuevo",
         "stock": 3
     },
     {
@@ -260,7 +306,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/radiohead-1.jpg",
         "price": 9100,
-        "categorie": "internacionales",
+        "category": "internacionales",
+        "gender": "rock",
+        "type": "nuevo",
         "stock": 5
     },
     {
@@ -271,7 +319,7 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/queen-usado-1.jpg",
         "price": 3900,
-        "categorie": "usados",
+        "category": "usados",
         "stock": 1
     },
     {
@@ -282,7 +330,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/soda-usado-1.jpg",
         "price": 4300,
-        "categorie": "usados",
+        "category": "usados",
+        "gender": "rock",
+        "type": "usado",
         "stock": 1
     },
     {
@@ -293,7 +343,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/pink-usado-1.jpg",
         "price": 2200,
-        "categorie": "usados",
+        "category": "usados",
+        "gender": "rock",
+        "type": "usado",
         "stock": 1
     },
     {
@@ -304,7 +356,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/beatles-usado-1.jpg",
         "price": 4100,
-        "categorie": "usados",
+        "category": "usados",
+        "gender": "rock",
+        "type": "usado",
         "stock": 1
     },
     {
@@ -315,7 +369,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/qotsa-usado-1.jpg",
         "price": 7900,
-        "categorie": "usados",
+        "category": "usados",
+        "gender": "rock",
+        "type": "usado",
         "stock": 1
     },
     {
@@ -326,7 +382,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/charly-usado-1.jpg",
         "price": 4300,
-        "categorie": "usados",
+        "category": "usados",
+        "gender": "rock",
+        "type": "usado",
         "stock": 1
     },
     {
@@ -337,7 +395,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/zeppelin-usado-1.jpg",
         "price": 2200,
-        "categorie": "usados",
+        "category": "usados",
+        "gender": "rock",
+        "type": "usado",
         "stock": 1
     },
     {
@@ -348,7 +408,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/spinetta-usado-1.jpg",
         "price": 4100,
-        "categorie": "usados",
+        "category": "usados",
+        "gender": "rock",
+        "type": "usado",
         "stock": 1
     },
     {
@@ -359,7 +421,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/rolling-1.jpg",
         "price": 2500,
-        "categorie": "clasicos",
+        "category": "clasicos",
+        "gender": "rock",
+        "type": "usado",
         "stock": 1
     },
     {
@@ -370,7 +434,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/gardel-1.jpg",
         "price": 5000,
-        "categorie": "clasicos",
+        "category": "clasicos",
+        "gender": "otros",
+        "type": "usado",
         "stock": 1
     },
     {
@@ -381,7 +447,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/sinatra-1.jpg",
         "price": 3700,
-        "categorie": "clasicos",
+        "category": "clasicos",
+        "gender": "jazz",
+        "type": "usado",
         "stock": 1
     },
     {
@@ -392,7 +460,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/creedence-1.jpg",
         "price": 3600,
-        "categorie": "clasicos",
+        "category": "clasicos",
+        "gender": "rock",
+        "type": "usado",
         "stock": 1
     },    {
         "id": 37,
@@ -402,7 +472,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/beegees-1.jpg",
         "price": 2500,
-        "categorie": "clasicos",
+        "category": "clasicos",
+        "gender": "pop",
+        "type": "usado",
         "stock": 1
     },
     {
@@ -413,7 +485,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/neil-1.jpg",
         "price": 5000,
-        "categorie": "clasicos",
+        "category": "clasicos",
+        "gender": "rock",
+        "type": "usado",
         "stock": 1
     },
     {
@@ -424,7 +498,9 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/pedropablo-1.jpg",
         "price": 3700,
-        "categorie": "clasicos",
+        "category": "clasicos",
+        "gender": "rock",
+        "type": "usado",
         "stock": 1
     },
     {
@@ -435,7 +511,269 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
         "pictureUrl": "../img/hendrix-1.jpg",
         "price": 3600,
-        "categorie": "clasicos",
+        "category": "clasicos",
+        "gender": "rock",
+        "type": "usado",
         "stock": 1
+    },
+    {
+        "id": 41,
+        "title": "Mucho",
+        "band": "Babasónicos",
+        "detail":"Dimensiones del producto: 12 x 12.6 x 1 pulgadas; 1.35 Libras - Fabricante : Parlophon - Formato: Disco Vinilo - ASIN : B00LD22MPU - Número de discos : 1",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
+        "pictureUrl": "../img/babasonicos-1.jpg",
+        "price": 5600,
+        "category": "nacionales",
+        "gender": "pop",
+        "type": "nuevo",
+        "stock": 4
+    },
+    {
+        "id": 42,
+        "title": "Espejitos",
+        "band": "Los cafres",
+        "detail":"Dimensiones del producto: 12 x 12.6 x 1 pulgadas; 1.35 Libras - Fabricante : Parlophon - Formato: Disco Vinilo - ASIN : B00LD22MPU - Número de discos : 1",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
+        "pictureUrl": "../img/cafres-1.jpg",
+        "price": 4900,
+        "category": "nacionales",
+        "gender": "reggae",
+        "type": "nuevo",
+        "stock": 3
+    },
+    {
+        "id": 43,
+        "title": "La grasa de las capitales",
+        "band": "Seru girán",
+        "detail":"Dimensiones del producto: 12 x 12.6 x 1 pulgadas; 1.35 Libras - Fabricante : Parlophon - Formato: Disco Vinilo - ASIN : B00LD22MPU - Número de discos : 1",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
+        "pictureUrl": "../img/seru-1.jpg",
+        "price": 4600,
+        "category": "nacionales",
+        "gender": "rock",
+        "type": "nuevo",
+        "stock": 6
+    },
+    {
+        "id": 44,
+        "title": "Caminarás caminos",
+        "band": "Dread mar I",
+        "detail":"Dimensiones del producto: 12 x 12.6 x 1 pulgadas; 1.35 Libras - Fabricante : Parlophon - Formato: Disco Vinilo - ASIN : B00LD22MPU - Número de discos : 1",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
+        "pictureUrl": "../img/dread-1.jpg",
+        "price": 6300,
+        "category": "nacionales",
+        "gender": "reggae",
+        "type": "nuevo",
+        "stock": 4
+    },
+    {
+        "id": 45,
+        "title": "La biblia",
+        "band": "Vox Dei",
+        "detail":"Dimensiones del producto: 12 x 12.6 x 1 pulgadas; 1.35 Libras - Fabricante : Parlophon - Formato: Disco Vinilo - ASIN : B00LD22MPU - Número de discos : 1",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
+        "pictureUrl": "../img/voxdei-1.jpg",
+        "price": 6900,
+        "category": "nacionales",
+        "gender": "rock",
+        "type": "nuevo",
+        "stock": 5
+    },
+    {
+        "id": 46,
+        "title": "Grandes éxitos",
+        "band": "Los palmeras",
+        "detail":"Dimensiones del producto: 12 x 12.6 x 1 pulgadas; 1.35 Libras - Fabricante : Parlophon - Formato: Disco Vinilo - ASIN : B00LD22MPU - Número de discos : 1",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
+        "pictureUrl": "../img/palmeras-1.jpg",
+        "price": 4000,
+        "category": "nacionales",
+        "gender": "otros",
+        "type": "nuevo",
+        "stock": 3
+    },
+    {
+        "id": 47,
+        "title": "The Eminem show",
+        "band": "Eminen",
+        "detail":"Dimensiones del producto: 12 x 12.6 x 1 pulgadas; 1.35 Libras - Fabricante : Parlophon - Formato: Disco Vinilo - ASIN : B00LD22MPU - Número de discos : 1",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
+        "pictureUrl": "../img/eminem-1.jpg",
+        "price": 8000,
+        "category": "destacados",
+        "gender": "otros",
+        "type": "nuevo",
+        "stock": 3
+    },
+    {
+        "id": 48,
+        "title": "Un verano sin ti",
+        "band": "Bad Bunny",
+        "detail":"Dimensiones del producto: 12 x 12.6 x 1 pulgadas; 1.35 Libras - Fabricante : Parlophon - Formato: Disco Vinilo - ASIN : B00LD22MPU - Número de discos : 1",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
+        "pictureUrl": "../img/bunny-1.jpg",
+        "price": 9200,
+        "category": "destacados",
+        "gender": "otros",
+        "type": "nuevo",
+        "stock": 7
+    },
+    {
+        "id": 49,
+        "title": "The 9 symphonies",
+        "band": "Beethoven",
+        "detail":"Dimensiones del producto: 12 x 12.6 x 1 pulgadas; 1.35 Libras - Fabricante : Parlophon - Formato: Disco Vinilo - ASIN : B00LD22MPU - Número de discos : 1",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
+        "pictureUrl": "../img/beethoven-1.jpg",
+        "price": 10000,
+        "category": "destacados",
+        "gender": "clasica",
+        "type": "nuevo",
+        "stock": 2
+    },
+    {
+        "id": 50,
+        "title": "Mister Yellowman",
+        "band": "Yellowman",
+        "detail":"Dimensiones del producto: 12 x 12.6 x 1 pulgadas; 1.35 Libras - Fabricante : Parlophon - Formato: Disco Vinilo - ASIN : B00LD22MPU - Número de discos : 1",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
+        "pictureUrl": "../img/yellowman-1.jpg",
+        "price": 7200,
+        "category": "destacados",
+        "gender": "reggae",
+        "type": "nuevo",
+        "stock": 10
+    },
+    {
+        "id": 51,
+        "title": "Xscape",
+        "band": "Michael Jackson",
+        "detail":"Dimensiones del producto: 12 x 12.6 x 1 pulgadas; 1.35 Libras - Fabricante : Parlophon - Formato: Disco Vinilo - ASIN : B00LD22MPU - Número de discos : 1",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
+        "pictureUrl": "../img/jackson-1.jpg",
+        "price": 7200,
+        "category": "internacionales",
+        "gender": "pop",
+        "type": "nuevo",
+        "stock": 5
+    },
+    {
+        "id": 52,
+        "title": "Avida dollars",
+        "band": "C-tangana",
+        "detail":"Dimensiones del producto: 12 x 12.6 x 1 pulgadas; 1.35 Libras - Fabricante : Parlophon - Formato: Disco Vinilo - ASIN : B00LD22MPU - Número de discos : 1",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
+        "pictureUrl": "../img/tangana-1.jpg",
+        "price": 7200,
+        "category": "internacionales",
+        "gender": "otros",
+        "type": "nuevo",
+        "stock": 10
+    },
+    {
+        "id": 53,
+        "title": "Until the end of time",
+        "band": "2pac",
+        "detail":"Dimensiones del producto: 12 x 12.6 x 1 pulgadas; 1.35 Libras - Fabricante : Parlophon - Formato: Disco Vinilo - ASIN : B00LD22MPU - Número de discos : 1",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
+        "pictureUrl": "../img/2pac-usado-1.jpg",
+        "price": 8700,
+        "category": "usados",
+        "gender": "otros",
+        "type": "usado",
+        "stock": 1
+    },
+    {
+        "id": 54,
+        "title": "Mentiras piadosas",
+        "band": "Joaquín Sabina",
+        "detail":"Dimensiones del producto: 12 x 12.6 x 1 pulgadas; 1.35 Libras - Fabricante : Parlophon - Formato: Disco Vinilo - ASIN : B00LD22MPU - Número de discos : 1",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
+        "pictureUrl": "../img/sabina-usado-1.jpg",
+        "price": 6300,
+        "category": "usados",
+        "gender": "otros",
+        "type": "usado",
+        "stock": 1
+    },
+    {
+        "id": 55,
+        "title": "Rab a dab stail",
+        "band": "Los pericos",
+        "detail":"Dimensiones del producto: 12 x 12.6 x 1 pulgadas; 1.35 Libras - Fabricante : Parlophon - Formato: Disco Vinilo - ASIN : B00LD22MPU - Número de discos : 1",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
+        "pictureUrl": "../img/pericos-usado-1.jpg",
+        "price": 5800,
+        "category": "usados",
+        "gender": "reggae",
+        "type": "usado",
+        "stock": 1
+    },
+    {
+        "id": 56,
+        "title": "Grandes éxitos",
+        "band": "Louis Armstrong",
+        "detail":"Dimensiones del producto: 12 x 12.6 x 1 pulgadas; 1.35 Libras - Fabricante : Parlophon - Formato: Disco Vinilo - ASIN : B00LD22MPU - Número de discos : 1",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
+        "pictureUrl": "../img/armstrong-usado-1.jpg",
+        "price": 9300,
+        "category": "usados",
+        "gender": "jazz",
+        "type": "usado",
+        "stock": 1
+    },
+    {
+        "id": 57,
+        "title": "The great reunion",
+        "band": "Louis Armstrong & Duke Ellington",
+        "detail":"Dimensiones del producto: 12 x 12.6 x 1 pulgadas; 1.35 Libras - Fabricante : Parlophon - Formato: Disco Vinilo - ASIN : B00LD22MPU - Número de discos : 1",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
+        "pictureUrl": "../img/ellington-1.jpg",
+        "price": 7100,
+        "category": "clasicos",
+        "gender": "jazz",
+        "type": "nuevo",
+        "stock": 1
+    },
+    {
+        "id": 58,
+        "title": "Legend, the best of",
+        "band": "Bob Marley and the wailers",
+        "detail":"Dimensiones del producto: 12 x 12.6 x 1 pulgadas; 1.35 Libras - Fabricante : Parlophon - Formato: Disco Vinilo - ASIN : B00LD22MPU - Número de discos : 1",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
+        "pictureUrl": "../img/marley-1.jpg",
+        "price": 9300,
+        "category": "clasicos",
+        "gender": "reggae",
+        "type": "nuevo",
+        "stock": 3
+    },
+    {
+        "id": 59,
+        "title": "Lo mejor de la opera",
+        "band": "Varios artistas",
+        "detail":"Dimensiones del producto: 12 x 12.6 x 1 pulgadas; 1.35 Libras - Fabricante : Parlophon - Formato: Disco Vinilo - ASIN : B00LD22MPU - Número de discos : 1",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
+        "pictureUrl": "../img/opera-1.jpg",
+        "price": 9300,
+        "category": "clasicos",
+        "gender": "clasica",
+        "type": "nuevo",
+        "stock": 1
+    },
+    {
+        "id": 60,
+        "title": "Jazz immortal",
+        "band": "Clifford Brown",
+        "detail":"Dimensiones del producto: 12 x 12.6 x 1 pulgadas; 1.35 Libras - Fabricante : Parlophon - Formato: Disco Vinilo - ASIN : B00LD22MPU - Número de discos : 1",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium iure, illum maxime est accusamus, quos voluptatem incidunt atque vel veritatis error aperiam pariatur assumenda nihil dolorem perferendis natus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi fugit omnis magni nam architecto officiis, nesciunt ea impedit. Blanditiis dolorum dolorem impedit? Corporis aut fugiat, minima accusantium perferendis mollitia.",
+        "pictureUrl": "../img/brown-1.jpg",
+        "price": 9300,
+        "category": "clasicos",
+        "gender": "jazz",
+        "type": "nuevo",
+        "stock": 2
     }
 ]

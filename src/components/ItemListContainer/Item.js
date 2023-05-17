@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 
 const Item = (props) => {
 
-    const { id, title, band, price, pictureUrl, categorie, stock } = props;
+    const { id, title, band, price, pictureUrl, category, stock } = props;
 
     const navigate = useNavigate()
 
@@ -16,7 +16,7 @@ const Item = (props) => {
                 <h5 className="c-title">{title}</h5>
                 <h6 className="c-band">{band}</h6>
                 <p className="c-text">${price}</p>
-                <button className="btn" id="btn-detail" type="button" onClick={() => navigate(`/${categorie}/${id}`)}>Ver detalle del producto</button>
+                <button className="btn" id="btn-detail" type="button" onClick={() => navigate(`/${category}/${id}`)}>Ver detalle del producto</button>
                 <p className="c-stock">Stock disponible: {stock} </p>
             </div>
         </div>

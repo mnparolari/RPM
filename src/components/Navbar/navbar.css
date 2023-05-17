@@ -1,21 +1,30 @@
-.nav-wrapper {
+.navbar {
+    height: 50px;
     background-color: #DF9D72ff;
+}
+
+.container-fluid {
+    background-color: #DF9D72ff;
+    height: 40px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
 }
 
-.nav-item {
+.navbar-nav {
     display: flex;
     justify-content: center;
 }
 
+.nav-item {
+    color:#DED7B3ff
+}
+
 .menu {
+    color:#fff;
     margin-left: 20px;
     font-weight: bold;
-    font-size: 1.2rem;
-    margin-right: 20px;
+    font-size: 1rem;
     text-decoration: none;
 }
 
@@ -43,3 +52,13 @@
 .icon:hover{
     color:#DED7B3ff;
 }
+
+.form-search {
+    margin-left: 17px;
+    width: 270px;
+}
+
+.input-field {
+    width: 200px;
+}
+
