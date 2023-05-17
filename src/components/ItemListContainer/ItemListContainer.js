@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './itemListStyle.css';
 import Filters from '../Filters/FiltersProducts';
 import ItemList from './ItemList'
@@ -10,9 +10,25 @@ import { useParams } from 'react-router-dom';
 const ItemListContainer = (props) => {
 
     const { prod, loading } = props;
+    const [products, setProducts] = useState([]);
+    const { category } = useParams();
 
-    const {category} = useParams()
-    const categoryProd = prod.filter((cat) => cat.category === category)
+    const requestData = () => {
+        return new Promise((resolve, reject) => {
+            resolve(prod);
+        });
+    };
+
+    useEffect(() => {
+        requestData()
+            .then((data) => {
+                if (!category) {
+                    setProducts(data);
+                } else {
+                    setProducts(data.filter((cat) => cat.category === category))
+                };
+            });
+    }, [category]);
 
     return (
         <div className="body-section">
@@ -22,7 +38,7 @@ const ItemListContainer = (props) => {
             {!loading &&
                 <div className="section-select">
                     <Filters />
-                    <ItemList prod={categoryProd} />
+                    <ItemList product={products} />
                 </div>
             }
 

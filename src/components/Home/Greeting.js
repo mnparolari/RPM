@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import './home.css';
+import './greeting.css';
 import 'animate.css';
 
 

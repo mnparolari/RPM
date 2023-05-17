@@ -9,9 +9,10 @@
 .greeting-home {
     font-size: 1.9rem;
     font-weight: bold;
-    padding-top: 8%;
-    padding-bottom: 7%;
-    margin-left: 280px;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    margin-left: 20px;
+    margin-top: 50px;
     float: left;
     position: relative;
 }
