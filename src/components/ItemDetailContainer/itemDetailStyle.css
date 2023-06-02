@@ -1,3 +1,11 @@
+.body-section {
+    background-color: #DED7B3ff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
 .detail-section {
     background-color: #DED7B3ff;
     text-align: center;
@@ -150,6 +158,9 @@
     .detail-textBox {
         margin-left: 100px;
         margin-top: 20px;
+        margin-left: 20;
+        padding-left: 0;
+        padding-bottom: 0;
     }
     .detail-detail {
         text-align: center;
@@ -172,5 +183,14 @@
 @media screen and (max-width: 690px) {
     .detail-img {
         width: 300px;
+    }
+}
+
+@media screen and (max-width: 495px) {
+    .detail-textBox {
+        margin-left: 100px;
+        margin-top: 20px;
+        padding-left: 60px;
+        padding-right: 50px;
     }
 }

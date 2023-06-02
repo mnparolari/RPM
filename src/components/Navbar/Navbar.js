@@ -42,7 +42,7 @@ function NavbarBoot() {
                     </ul>
                 </div>
             </div>
-        </nav >
+        </nav>
     )
 }
 

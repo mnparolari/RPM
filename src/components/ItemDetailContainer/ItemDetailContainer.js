@@ -8,12 +8,11 @@ import { useParams } from 'react-router-dom';
 const ItemDetailContainer = (props) => {
 
   const { prod, loading } = useFirebase(props);
-
   const { id } = useParams();
   const product = prod.find(item => item.id === Number(id));
 
   return (
-    <div className="body-section">
+    <section className="body-section">
       <div className="spinner">
         {loading && <Spinner />}
       </div>
@@ -22,7 +21,7 @@ const ItemDetailContainer = (props) => {
           <ItemDetail prod={product} />
         </div>
       }
-    </div>
+    </section>
   )
 }
 

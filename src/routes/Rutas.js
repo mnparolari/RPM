@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar/Navbar';
 import Cart from '../components/CartWidget/Cart';
 import ItemListContainer from '../components/ItemListContainer/ItemListContainer';
 import CartContextProvider from '../context/CartContextProvider';
+import Footer from '../components/Footer/Footer';
 
 const Rutas = () => {
     return (
@@ -20,6 +21,7 @@ const Rutas = () => {
                     <Route path="/cart" element={<Cart />} />
                     <Route path="*" element={<h1>404 NOT FOUND</h1>} />
                 </Routes>
+                <Footer />
             </CartContextProvider>
         </BrowserRouter>
     )

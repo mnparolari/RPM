@@ -12,7 +12,6 @@ import { completedForm } from '../../helpers/index';
 const Payment = (props) => {
 
     const { feeCount, setFeeCount, interestRate, totalWithInterest, feeAmount } = usePaymentFees(props);
-
     const { removeList, totalAmount, postData, cartList, orderNumber } = props;
 
     const [state, setState] = useState({
@@ -44,25 +43,6 @@ const Payment = (props) => {
         });
     };
 
-    const feesArray = [
-        {
-            "value": 1,
-            "quantityfees": 1,
-        },
-        {
-            "value": 3,
-            "quantityfees": 3,
-        },
-        {
-            "value": 6,
-            "quantityfees": 6,
-        },
-        {
-            "value": 12,
-            "quantityfees": 12,
-        }
-    ];
-
     const alert = () => {
         if (completedForm([number, name, expiry, cvc])) {
             const MySwalThree = withReactContent(Swal)
@@ -70,6 +50,13 @@ const Payment = (props) => {
                 icon: 'error',
                 title: 'Oops... ¡Hay datos sin completar!',
                 text: 'Debés completarlos para finalizar el pago',
+            });
+        } else if ((number.length < 16) || (expiry.length < 4) || (cvc.length < 3)) {
+            const MySwalFour = withReactContent(Swal)
+            MySwalFour.fire({
+                icon: 'error',
+                title: 'Oops... ¡Hay datos incorrectos!',
+                text: 'Revisá estar ingresando los dieciséis (16) números de tu tarjeta, los cuatro (4) dígitos para la fecha de vencimiento y que tu código de seguridad sea de tres (3) o cuatro (4) dígitos.',
             });
         } else {
             const MySwalOne = withReactContent(Swal)
@@ -98,8 +85,8 @@ const Payment = (props) => {
                 removeList();
             }, 2500);
             setTimeout(() => {
-                const MySwalTwo = withReactContent(Swal)
-                MySwalTwo.fire({
+                const MySwalFive = withReactContent(Swal)
+                MySwalFive.fire({
                     title: <strong>Tu número de órden es:</strong>,
                     html: `${orderNumber}`,
                     position: 'center',
@@ -111,6 +98,25 @@ const Payment = (props) => {
             }, 4500);
         };
     };
+
+    const feesArray = [
+        {
+            "value": 1,
+            "quantityfees": 1,
+        },
+        {
+            "value": 3,
+            "quantityfees": 3,
+        },
+        {
+            "value": 6,
+            "quantityfees": 6,
+        },
+        {
+            "value": 12,
+            "quantityfees": 12,
+        }
+    ];
 
     return (
         <div className="payment">

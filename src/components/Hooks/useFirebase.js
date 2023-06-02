@@ -1,5 +1,7 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import Swal from 'sweetalert2';
+import withReactContent from 'sweetalert2-react-content';
 import { collection, getDocs, addDoc } from 'firebase/firestore';
 import { db } from '../../firebase-config';
 
@@ -10,6 +12,14 @@ const useFetchLoading = () => {
     const [orderNumber, setOrderNumber] = useState([]);
     const { category } = useParams();
 
+    const handleError = () => {
+        const MySwalError = withReactContent(Swal)
+        MySwalError.fire({
+            icon: 'error',
+            title: 'Oops... ¡Ocurrió un error!',
+            text: 'Refrescá y volvé a intentarlo.',
+        });
+    };
 
     useEffect(() => {
         const getProducts = async () => {
@@ -27,9 +37,9 @@ const useFetchLoading = () => {
                     setLoading(false);
                 }, 200);
             } catch (error) {
-                console.log(error);
-            }
-        }
+                handleError(error);
+            };
+        };
         getProducts();
     }, [category]);
 
@@ -38,9 +48,8 @@ const useFetchLoading = () => {
             const col = collection(db, "order");
             const order = await addDoc(col, data);
             setOrderNumber(order.id)
-            console.log(order.id)
         } catch (error) {
-            console.log(error)
+            handleError(error)
         }
     };
 

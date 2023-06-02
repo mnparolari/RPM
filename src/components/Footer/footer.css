@@ -1,0 +1,57 @@
+.main-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #2F7864ff;
+}
+
+.container-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.App-logo-footer {
+    height: 13vmin;
+    pointer-events: none;
+    margin-left: 0px;
+}
+
+.row-footer {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-footer {
+    width: 400px;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-logo {
+    width: 7vmin;
+    height: 7vmin;
+    margin-left: 3px;
+    margin-right: 2px;
+    pointer-events: none;
+}

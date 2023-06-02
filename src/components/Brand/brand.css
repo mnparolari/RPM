@@ -7,13 +7,13 @@
     background-color: #2F7864ff;
 }
 
-.App-logo {
+.App-logo-brand {
     height: 20vmin;
     pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
+    .App-logo-brand {
         animation: App-logo-spin infinite 10s linear;
     }
 }

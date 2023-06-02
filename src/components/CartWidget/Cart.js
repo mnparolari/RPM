@@ -11,9 +11,7 @@ import Spinner from '../Spinner/Spinner';
 const Cart = (props) => {
 
   const { cartList, removeList, deleteItem, deleteQuantity } = useContext(CartContext);
-
   const { loading, postData, orderNumber } = useFirebase(props);
-
   const totalAmount = cartList.reduce((acc, item) => acc + item.price * item.quantity, 0);
 
   const [pay, setPay] = useState(false);
@@ -23,7 +21,7 @@ const Cart = (props) => {
 
 
   return (
-    <div className="cart-section">
+    <section className="cart-section">
       <div className="spinner">
         {loading && <Spinner />}
       </div>
@@ -65,7 +63,7 @@ const Cart = (props) => {
           }
         </>
       }
-    </div>
+    </section>
 
   )
 }

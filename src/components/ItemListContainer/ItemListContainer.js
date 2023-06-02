@@ -10,16 +10,16 @@ const ItemListContainer = (props) => {
     const { prod, loading } = useFirebase(props);
 
     return (
-        <div className="body-section">
+        <main className="body-main">
             <div className="spinner">
                 {loading && <Spinner />}
             </div>
             {!loading &&
-                <div className="section-select">
+                <section className="section-select">
                     <ItemList product={prod} />
-                </div>
+                </section>
             }
-        </div>
+        </main>
     )
 }
 

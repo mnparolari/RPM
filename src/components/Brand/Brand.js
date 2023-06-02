@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 const Brand = () => {
     return (
         <div className="brand">
-            <NavLink to={`/`} className="brand-logo"><img src={logo} className="App-logo" alt="logo" /><img src={iso} className="App-iso" alt="iso" /></NavLink>
+            <NavLink to={`/`} className="brand-logo"><img src={logo} className="App-logo-brand" alt="logo" /><img src={iso} className="App-iso" alt="iso" /></NavLink>
         </div>
     )
 }

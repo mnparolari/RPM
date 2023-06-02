@@ -12,7 +12,7 @@ NPM, La casa del vinilo es un e-commerce dedicado pura y exclusivamente a discos
 - Discos Internacionales
 - Discos Usados
 - Discos Clásicos
-- ✨Y sobre todo, Magia✨
+- ✨Y sobre todo, un viaje al recuerdo✨
 
 ## Características generales del proyecto:
 
@@ -38,6 +38,7 @@ A su vez, el proyecto tiene otros subcomponentes que motorizan y abogan por el p
 * <Form />: Presenta los inputs con los datos personales para la validación de la compra.
 * <Payment />: Render de la tarjeta de crédito -creado con [react-credit-cards-2](https://www.npmjs.com/package/react-credit-cards-2).
 * <Spinner />: Representación del loading como transición entre componentes.
+* <Footer />: Pie de página.
 
 ##### Custom Hooks: 
 * useCount(): Estados y funciones necesarias para el funcionamiento de ItemCount.
@@ -48,7 +49,7 @@ A su vez, el proyecto tiene otros subcomponentes que motorizan y abogan por el p
 * useContext(CartContext): Estados y funciones necesarias para las diferentes acciones a realizar con los productos (addToCart, isInCart, removeList, deleteItem, deleteQuantity).
 
 ##### Helpers: 
-* index.js: Funciones para reutilizar.
+* index.js: Funciones reutilizables.
 
 #### Estilos:
 | Archivos | .CCS |
@@ -60,12 +61,16 @@ A su vez, el proyecto tiene otros subcomponentes que motorizan y abogan por el p
 | CartWidget.jsx - Cart.jsx - CartItem.jsx | [./cart.css] |
 | Form.jsx | [./form.css] |
 | Payment.jsx | [./payment.css] |
+| Footer.jsx | [./footer.css] |
 | Spinner.jsx | [./spinner.css] |
 
+#### Otros:
+* firebase-config.jsx => Configuración para la utilización de Firebase.
+* palette-rpm.scss (carpeta public)=> Paleta de colores utilizada, obtenida de [Coolors](https://coolors.co/).
 
 ## Características técnicas del proyecto:
 
-_**RPM, La casa del vinilo**_ utilizó las siguientes tecnologías:
+_**RPM, La casa del vinilo**_ utiliza las siguientes tecnologías:
 
 - [React.js](https://react.dev/) - ^18.2.0
 - [Node.js](https://nodejs.org/es) - ^18.13.0
@@ -93,6 +98,10 @@ Abra http://localhost:3000 para verlo en su navegador.
 
 La página se volverá a cargar cuando realice cambios.
 También puede ver errores de pelusa en la consola.
+
+## DEMO
+
+
 
 ### Versión
 
