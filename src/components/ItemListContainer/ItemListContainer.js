@@ -1,34 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './itemListStyle.css';
-import Filters from '../Filters/FiltersProducts';
 import ItemList from './ItemList'
 import Spinner from '../Spinner/Spinner';
-import FetchAndLoading from '../HOC/FetchAndLoading';
-import { useParams } from 'react-router-dom';
+import useFirebase from '../Hooks/useFirebase';
 
 
 const ItemListContainer = (props) => {
 
-    const { prod, loading } = props;
-    const [products, setProducts] = useState([]);
-    const { category } = useParams();
-
-    const requestData = () => {
-        return new Promise((resolve, reject) => {
-            resolve(prod);
-        });
-    };
-
-    useEffect(() => {
-        requestData()
-            .then((data) => {
-                if (!category) {
-                    setProducts(data);
-                } else {
-                    setProducts(data.filter((cat) => cat.category === category))
-                };
-            });
-    }, [category]);
+    const { prod, loading } = useFirebase(props);
 
     return (
         <div className="body-section">
@@ -37,13 +16,11 @@ const ItemListContainer = (props) => {
             </div>
             {!loading &&
                 <div className="section-select">
-                    <Filters />
-                    <ItemList product={products} />
+                    <ItemList product={prod} />
                 </div>
             }
-
         </div>
     )
 }
 
-export default FetchAndLoading(ItemListContainer)
+export default ItemListContainer

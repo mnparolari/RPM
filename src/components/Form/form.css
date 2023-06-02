@@ -1,0 +1,15 @@
+#btn-autentification {
+    width: 190px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 0.7rem;
+    background-color: #2F7864ff;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+#btn-autentification:hover {
+    color: black;
+    font-weight: bold;
+}

@@ -1,34 +1,33 @@
-import {useState, useEffect} from 'react';
-
+import { useState, useEffect } from 'react';
 
 const useCount = (props) => {
-    
+
     const { initial, stock } = props;
 
-    const [value, setValue] = useState(initial || 1);
+    const [quantity, setQuantity] = useState(initial || 0);
     const [block, setBlock] = useState(false);
 
     useEffect(() => {
-        if (value >= stock) {
+        if (quantity >= stock) {
             setBlock(true)
         }
         return () => {
             setBlock(false)
         }
-    }, [value]);
+    }, [stock, quantity]);
 
 
     const increment = () => {
-        setValue(value + 1);
+        setQuantity(quantity + 1);
     };
 
     const decrement = () => {
-        if (value > 1) {
-            setValue(value - 1);
+        if (quantity > 1) {
+            setQuantity(quantity - 1);
         };
     };
 
-    return { value, block, increment, decrement }
+    return { quantity, block, increment, decrement }
 
 }
 

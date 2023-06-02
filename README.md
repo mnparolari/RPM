@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# NPM
+## _La casa del vinilo_
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![N|Solid](https://firebasestorage.googleapis.com/v0/b/npm-la-casa-del-vinilo.appspot.com/o/RPM.png?alt=media&token=c8478a24-e62e-4a70-9f71-7e5aeb59273e&_gl=1*qw5m5s*_ga*MTczMTk5NTc2MC4xNjg0OTcyNTUw*_ga_CW55HF8NVT*MTY4NTY3MjEwMS45LjEuMTY4NTY3Mjc1MC4wLjAuMA..)](https://nodesource.com/products/nsolid)
 
-## Available Scripts
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-In the project directory, you can run:
+NPM, La casa del vinilo es un e-commerce dedicado pura y exclusivamente a discos de vinilos. En su recorrido podrás encontrar:
 
-### `npm start`
+- Discos destacados
+- Discos Nacionales
+- Discos Internacionales
+- Discos Usados
+- Discos Clásicos
+- ✨Y sobre todo, Magia✨
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Características generales del proyecto:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+El proyecto cuenta con 4 secciones principales: 
+* ***Home***, representado por el ***<ItemListContainer />***: Render de todos los productos en ***{path="/"}***.
+* ***Categorías***, representado por el ***<ItemListContainer />***: Render de los productos filtrados en ***{path="/:category"}***.
+* ***Detalle del producto***, representado por el ***<ItemDetailContainer/>***: Render del producto seleccionado + compra del producto en ***{path="/:category/:id"}***.
+* ***Carrito de compras***, representado por el ***<Cart />***: Render de los productos seleccionados en ***{path="/cart"}***
 
-### `npm test`
+> Estas secciones están aplicadas en el 
+> componente <Rutas />, que es llamado 
+> desde el componente padre del proyecto: <App />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+A su vez, el proyecto tiene otros subcomponentes que motorizan y abogan por el perfecto funcionamiento de la App:
+* <Brand />: Visualiza el encabezado del proyecto.
+* <Navbar />: Representa las diferentes categorías, junto al <CartWidge /> desde donde se puede ingresar al Carrito.
+* <ItemList />: Mapea los productos en el Home y en las categorías.
+* <Item />: Producto individidual renderizado en el Home y en las categorías.
+* <ItemDetail />: Muestra el detalle del producto seleccionado.
+* <ItemCount />: Representación de los botones para sumar, restar y seleccionar producto.
+* <CartItem />: Renderiza las cards de los productos seleccionados.
+* <Form />: Presenta los inputs con los datos personales para la validación de la compra.
+* <Payment />: Render de la tarjeta de crédito -creado con [react-credit-cards-2](https://www.npmjs.com/package/react-credit-cards-2).
+* <Spinner />: Representación del loading como transición entre componentes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##### Custom Hooks: 
+* useCount(): Estados y funciones necesarias para el funcionamiento de ItemCount.
+* useFirebase(): Estados y funciones necesarias para la obtención de los productos y el envío de las órdenes de pago a Firebase vía API.
+* usePaymentFees(): Estados y funciones necesarias para el cálculo de intereses, cuotas y nuevos totales por el pago con tarjeta de crédito.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##### Context: 
+* useContext(CartContext): Estados y funciones necesarias para las diferentes acciones a realizar con los productos (addToCart, isInCart, removeList, deleteItem, deleteQuantity).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##### Helpers: 
+* index.js: Funciones para reutilizar.
 
-### `npm run eject`
+#### Estilos:
+| Archivos | .CCS |
+| ------ | ------ |
+| Brand.jsx | [./brand.css] |
+| NavBar.jsx - NavbarItem.jsx | [./navbar.css] |
+| ItemListContainer.jsx - ItemList.jsx - Item.jsx | [./itemListStyle.css] |
+| ItemDetailContainer.jsx - ItemDetail.jsx - ItemCount.jsx | [./itemDetailStyle.css] |
+| CartWidget.jsx - Cart.jsx - CartItem.jsx | [./cart.css] |
+| Form.jsx | [./form.css] |
+| Payment.jsx | [./payment.css] |
+| Spinner.jsx | [./spinner.css] |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Características técnicas del proyecto:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+_**RPM, La casa del vinilo**_ utilizó las siguientes tecnologías:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [React.js](https://react.dev/) - ^18.2.0
+- [Node.js](https://nodejs.org/es) - ^18.13.0
+- [NPM](https://www.npmjs.com/) - ^8.19.3
+- [Firebase](https://firebase.google.com/) - ^9.22.0
+- [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - ^5.2.3
+- [materialize-css](https://materializecss.com/) - ^1.0.0-rc.2
+- [Toastify](https://fkhadra.github.io/react-toastify/introduction/) - ^9.1.3
+- [SweetAlert2](https://sweetalert2.github.io/) - ^11.7.5
 
-## Learn More
+##### Repositorio público de [GitHub](https://github.com/mnparolari/RPM)
+Intrucciones para clonar proyecto [aquí](https://docs.github.com/es/repositories/creating-and-managing-repositories/cloning-a-repository)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-------------------------
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Ejecutar proyecto
+> Nota: `Este proyecto se inició con Create React App .`
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+npm start
+```
+Ejecuta la aplicación en el modo de desarrollo.
+Abra http://localhost:3000 para verlo en su navegador.
 
-### Analyzing the Bundle Size
+La página se volverá a cargar cuando realice cambios.
+También puede ver errores de pelusa en la consola.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Versión
 
-### Making a Progressive Web App
+```sh
+1.0.0.0
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Creado por 
 
-### Advanced Configuration
+Martín Parolari
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Es tan sólo el comienzo...**

@@ -1,0 +1,278 @@
+#cartwidget {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #2F7864ff;
+    border: #2F7864ff;
+    border-radius: 3%;
+    font-family:'Roboto Mono', monospace;
+    text-decoration: none;
+    margin-left: 115px;
+}
+
+#cartwidget:hover {
+    background-color: #2F7864ff;
+}
+
+#icon {
+    text-decoration: none;
+    text-align: center;
+    color: #DF9D72ff;
+}
+
+#icon:hover {
+    color: #DF9D72ff;
+}
+
+#span-counter {
+    background-color: #2F7864ff;
+}
+
+.cart-section {
+    padding-top: 10px;
+    background-color: #DED7B3ff;
+    text-align: center;
+}
+
+.products-cart {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cart-item {
+    display: grid; 
+    grid-template-columns: auto auto;
+    margin: 20px;
+}
+
+.cart-buttons {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#btn-continue {
+    width: 190px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    background-color: #2F7864ff;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#btn-continue:hover {
+    background-color: #DF9D72ff;
+    color: black;
+    font-weight: bold;
+}
+
+#btn-pay {
+    width: 190px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    background-color: #2F7864ff;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#btn-pay:hover {
+    background-color: #DF9D72ff;
+    color: black;
+    font-weight: bold;
+}
+
+#btn-delete-list {
+    width: 260px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 0.7rem;
+    background-color: #dc544c;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#btn-delete-list:hover {
+    background-color: #e2382f;
+    color: white;
+}
+
+#card-cart {
+    width: 450px;
+    height: 230px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: #DED7B3ff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#card-row-cart {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    margin: 0;
+}
+
+.col-md-4 {
+    width: 100%;
+    height: 100%;
+}
+
+.col-md-8 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#btn-delete {
+    width: 165px;
+    height: 20px;
+    margin-bottom: 10px;
+    font-size: 0.7rem;
+    background-color: #2F7864ff;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn-delete:hover {
+    background-color: #dc544c;
+    color: black;
+    font-weight: bold;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-text {
+    font-size: 0.7rem;
+}
+
+.card-text span {
+    font-weight: bold;
+}
+
+.payment-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1075px) {
+    #btn-delete {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #btn-pay {
+        margin-left: 50px;
+    }
+    .cart-item {
+        display: flex;
+        flex-direction: column;
+    }
+    .products-cart {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #cartwidget {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 955px) {
+    #btn-continue {
+        height: 60px;
+    }
+    #btn-delete-list {
+        height: 60px;
+    }
+    #btn-pay {
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .cart-buttons {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #btn-continue {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #btn-delete-list {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #btn-pay {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #card-cart {
+        width: 400px;
+        height: 200px;
+    }
+    .col-md-4 {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #card-cart {
+        width: 350px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    #card-cart {
+        width: 320px;
+        height: 200px;
+        text-align: center;
+    }
+}
+
+
+
+

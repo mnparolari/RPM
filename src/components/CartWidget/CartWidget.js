@@ -1,18 +1,19 @@
-import React from 'react';
-import './cartwidget.css';
-import {useNavigate, NavLink} from 'react-router-dom';
+import React, { useContext } from 'react';
+import './cart.css';
+import { NavLink } from 'react-router-dom';
+import { CartContext } from '../../context/CartContextProvider';
 
 const CartWidget = () => {
 
-    const navigate = useNavigate()
+    const { cartList } = useContext(CartContext)
 
     return (
-        <button className="cart btn-small" onClick={() => navigate(`/cart`)}>
-            <NavLink to={`/cart`} className="icon" href="#">
-                <i className="material-icons">shopping_cart</i>
-            </NavLink>
-            <span className="new badge" data-badge-caption="producto" onClick={() => navigate(`/cart`)}>1</span>
-        </button>
+        <NavLink className="cart btn-small" id="cartwidget" to={`/cart`}>
+            <i className="material-icons" id="icon">shopping_cart</i>
+            {cartList.length >= 1 &&
+                <span className="new badge" id="span-counter" data-badge-caption="producto/s">{cartList.length}</span>
+            }
+        </NavLink>
     )
 }
 
