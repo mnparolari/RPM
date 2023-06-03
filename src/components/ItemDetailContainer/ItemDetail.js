@@ -12,11 +12,11 @@ const ItemDetail = ({ prod }) => {
 
     return (
         <div className="detail-section">
-            <div className="back-icon">
-                <Link to={-1} className="waves-effect waves-light btn-small" id="btn-back"><i className="material-icons" id="icon-back">keyboard_return</i>Volver</Link>
-            </div>
             <div className="detail-product">
                 <div className="detail-imageBox">
+                    <div className="back-icon">
+                        <Link to={-1} className="waves-effect waves-light btn-small" id="btn-back"><i className="material-icons" id="icon-back">keyboard_return</i>Volver</Link>
+                    </div>
                     <img className="detail-img" src={pictureUrl} alt={title} />
                 </div>
                 <div className="detail-textBox">
