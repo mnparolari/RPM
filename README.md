@@ -1,11 +1,11 @@
-# NPM
+# RPM
 ## _La casa del vinilo_
 
 [![N|Solid](https://firebasestorage.googleapis.com/v0/b/npm-la-casa-del-vinilo.appspot.com/o/RPM.png?alt=media&token=c8478a24-e62e-4a70-9f71-7e5aeb59273e&_gl=1*qw5m5s*_ga*MTczMTk5NTc2MC4xNjg0OTcyNTUw*_ga_CW55HF8NVT*MTY4NTY3MjEwMS45LjEuMTY4NTY3Mjc1MC4wLjAuMA..)](https://nodesource.com/products/nsolid)
 
 --------------------------------------------------------------------------------------------------------
 
-NPM, La casa del vinilo es un e-commerce dedicado pura y exclusivamente a discos de vinilos. En su recorrido podrás encontrar:
+RPM, La casa del vinilo es un e-commerce dedicado pura y exclusivamente a discos de vinilos. En su recorrido podrás encontrar:
 
 - Discos destacados
 - Discos Nacionales
@@ -102,14 +102,14 @@ const **Martín** = (**Nicolás**) => {
 
 --------------------------------------------------------------------------------------------------------
 
-# NPM
+# RPM
 ## _La casa del vinilo_
 
 [![N|Solid](https://firebasestorage.googleapis.com/v0/b/npm-la-casa-del-vinilo.appspot.com/o/RPM.png?alt=media&token=c8478a24-e62e-4a70-9f71-7e5aeb59273e&_gl=1*qw5m5s*_ga*MTczMTk5NTc2MC4xNjg0OTcyNTUw*_ga_CW55HF8NVT*MTY4NTY3MjEwMS45LjEuMTY4NTY3Mjc1MC4wLjAuMA..)](https://nodesource.com/products/nsolid)
 
 --------------------------------------------------------------------------------------------------------
 
-NPM, La casa del vinilo is an e-commerce dedicated purely and exclusively to vinyl records. On your tour you will find:
+RPM, La casa del vinilo is an e-commerce dedicated purely and exclusively to vinyl records. On your tour you will find:
 
 - Featured albums
 - National Records
