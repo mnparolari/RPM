@@ -7,14 +7,14 @@ import 'react-toastify/dist/ReactToastify.css';
 const ItemCount = (props) => {
 
     const { quantity, block, increment, decrement } = useCount(props);
-    const { addToCart, prod } = props;
+    const { addToCart, prod, isInCart } = props;
     const { id, title, band, price, pictureUrl } = prod;
 
     const arrayAddCart = () => {
         addToCart({ id, title, band, price, pictureUrl, quantity })
     };
 
-    const [isProductAdded, setIsProductAdded] = useState(false)
+    const [isProductAdded, setIsProductAdded] = useState(isInCart(id))
 
     const toastify = () => {
         if (!isProductAdded) {

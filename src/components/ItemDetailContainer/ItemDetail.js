@@ -8,7 +8,7 @@ const ItemDetail = ({ prod }) => {
 
     const { title, band, detail, description, price, pictureUrl, stock } = prod;
 
-    const { cartList, addToCart } = useContext(CartContext);
+    const { cartList, addToCart, isInCart } = useContext(CartContext);
 
     return (
         <div className="detail-section">
@@ -24,7 +24,7 @@ const ItemDetail = ({ prod }) => {
                     <h5 className="detail-price">${price.toLocaleString()}</h5>
                     <h6>Detalles: <br /></h6>
                     <p className="detail-detail">{detail}</p>
-                    <ItemCount initial={1} stock={stock} addToCart={addToCart} prod={prod} />
+                    <ItemCount initial={1} stock={stock} addToCart={addToCart} prod={prod} isInCart={isInCart} />
                     {cartList.length > 0 &&
                         <div>
                             <hr />

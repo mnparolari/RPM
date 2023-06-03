@@ -9,11 +9,11 @@ const CartContextProvider = ({ children }) => {
     const addToCart = (item) => {
         if (!isInCart(item.id)) {
             setCartList([...cartList, item]);
-        };
+        }
     };
 
     const isInCart = (itemId) => {
-        return cartList.some(prod => prod.id === itemId);
+        return cartList.some(prod => prod.id === itemId)
     };
 
     const removeList = () => {
