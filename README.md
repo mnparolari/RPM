@@ -17,14 +17,14 @@ NPM, La casa del vinilo es un e-commerce dedicado pura y exclusivamente a discos
 ## Características generales del proyecto:
 
 El proyecto cuenta con 4 secciones principales: 
-* ***Home***, representado por el ***"<ItemListContainer />"***: Render de todos los productos en ***{path="/"}***.
-* ***Categorías***, representado por el ***"<ItemListContainer />"***: Render de los productos filtrados en ***{path="/:category"}***.
-* ***Detalle del producto***, representado por el ***"<ItemDetailContainer/>"***: Render del producto seleccionado + compra del producto en ***{path="/:category/:id"}***.
-* ***Carrito de compras***, representado por el ***"<Cart />"***: Render de los productos seleccionados en ***{path="/cart"}***
+* ***Home***, representado por el ***"< ItemListContainer />"***: Render de todos los productos en ***{path="/"}***.
+* ***Categorías***, representado por el ***"< ItemListContainer />"***: Render de los productos filtrados en ***{path="/:category"}***.
+* ***Detalle del producto***, representado por el ***"< ItemDetailContainer/>"***: Render del producto seleccionado + compra del producto en ***{path="/:category/:id"}***.
+* ***Carrito de compras***, representado por el ***"< Cart />"***: Render de los productos seleccionados en ***{path="/cart"}***
 
 > Estas secciones están aplicadas en el 
-> componente ***"<Rutas />"***, que es llamado 
-> desde el componente padre del proyecto: ***"<App />"***.
+> componente ***"< Rutas />"***, que es llamado 
+> desde el componente padre del proyecto: ***"< App />"***.
 
 
 A su vez, el proyecto tiene otros subcomponentes que motorizan y abogan por el perfecto funcionamiento de la App:
@@ -85,10 +85,6 @@ _**RPM, La casa del vinilo**_ utiliza las siguientes tecnologías:
 Intrucciones para clonar proyecto [aquí](https://docs.github.com/es/repositories/creating-and-managing-repositories/cloning-a-repository)
 
 -------------------------
-
-## DEMO
-
-
 
 ### Versión
 
@@ -191,10 +187,6 @@ _**RPM, La casa del vinilo**_ uses the following technologies:
 Instructions for cloning a project [here](https://docs.github.com/es/repositories/creating-and-managing-repositories/cloning-a-repository)
 
 -------------------------
-
-## DEMO
-
-
 
 ### Version
 
