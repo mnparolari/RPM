@@ -17,28 +17,28 @@ NPM, La casa del vinilo es un e-commerce dedicado pura y exclusivamente a discos
 ## Características generales del proyecto:
 
 El proyecto cuenta con 4 secciones principales: 
-* ***Home***, representado por el ***"< ItemListContainer />"***: Render de todos los productos en ***{path="/"}***.
-* ***Categorías***, representado por el ***"< ItemListContainer />"***: Render de los productos filtrados en ***{path="/:category"}***.
-* ***Detalle del producto***, representado por el ***"< ItemDetailContainer/>"***: Render del producto seleccionado + compra del producto en ***{path="/:category/:id"}***.
-* ***Carrito de compras***, representado por el ***"< Cart />"***: Render de los productos seleccionados en ***{path="/cart"}***
+* **Home**, representado por el **< ItemListContainer />**: Render de todos los productos en **{path="/"}**.
+* **Categorías**, representado por el **< ItemListContainer />**: Render de los productos filtrados en **{path="/:category"}**.
+* **Detalle del producto**, representado por el **< ItemDetailContainer/>**: Render del producto seleccionado + compra del producto en **{path="/:category/:id"}**.
+* **Carrito de compras**, representado por el **< Cart />**: Render de los productos seleccionados en **{path="/cart"}**.
 
 > Estas secciones están aplicadas en el 
-> componente ***"< Rutas />"***, que es llamado 
-> desde el componente padre del proyecto: ***"< App />"***.
+> componente ***< Rutas />***, que es llamado 
+> desde el componente padre del proyecto: ***< App />***.
 
 
 A su vez, el proyecto tiene otros subcomponentes que motorizan y abogan por el perfecto funcionamiento de la App:
-* ***"<Brand />":*** Visualiza el encabezado del proyecto.
-* "<Navbar />": Representa las diferentes categorías, junto al ***"<CartWidge />"*** desde donde se puede ingresar al Carrito.
-* ***"<ItemList />":***: Mapea los productos en el Home y en las categorías.
-* ***"<Item />":*** Producto individidual renderizado en el Home y en las categorías.
-* ***"<ItemDetail />":*** Muestra el detalle del producto seleccionado.
-* ***"<ItemCount />":*** Representación de los botones para sumar, restar y seleccionar producto.
-* ***"<CartItem />":*** Renderiza las cards de los productos seleccionados.
-* ***"<Form />":*** Presenta los inputs con los datos personales para la validación de la compra.
-* ***"<Payment />":*** Render de la tarjeta de crédito -creado con [react-credit-cards-2](https://www.npmjs.com/package/react-credit-cards-2)-.
-* ***"<Spinner />":*** Representación del loading como transición entre componentes.
-* ***"<Footer />":*** Pie de página.
+* **< Brand />:** Visualiza el encabezado del proyecto.
+* **< Navbar />:** Representa las diferentes categorías, junto al **< CartWidge />** desde donde se puede ingresar al Carrito.
+* **< ItemList />:**: Mapea los productos en el Home y en las categorías.
+* **< Item />:** Producto individidual renderizado en el Home y en las categorías.
+* **< ItemDetail />:** Muestra el detalle del producto seleccionado.
+* **< ItemCount />:** Representación de los botones para sumar, restar y seleccionar producto.
+* **< CartItem />:** Renderiza las cards de los productos seleccionados.
+* **< Form />:** Presenta los inputs con los datos personales para la validación de la compra.
+* **< Payment />:** Render de la tarjeta de crédito -creado con [react-credit-cards-2](https://www.npmjs.com/package/react-credit-cards-2)-.
+* **< Spinner />:** Representación del loading como transición entre componentes.
+* **< Footer />:** Pie de página.
 
 ##### Custom Hooks: 
 * useCount(): Estados y funciones necesarias para el funcionamiento de ItemCount.
@@ -94,7 +94,9 @@ Intrucciones para clonar proyecto [aquí](https://docs.github.com/es/repositorie
 
 ## Creado por 
 
-Martín Nicolás Parolari
+const **Martín** = (**Nicolás**) => {
+    console.log(**Parolari**)
+};
 
 **Sólo el comienzo...**
 
@@ -119,28 +121,28 @@ NPM, La casa del vinilo is an e-commerce dedicated purely and exclusively to vin
 ## General characteristics of the project:
 
 The project has 4 main sections:
-* ***Home***, represented by the ***"<ItemListContainer />"***: Render of all products in ***{path="/"}***.
-* ***Categories***, represented by the ***"<ItemListContainer />"***: Render of the filtered products in ***{path="/:category"}***.
-* ***Product Detail***, represented by the ***"<ItemDetailContainer/>"***: Render of the selected product + purchase of the product in ***{path="/:category/:id" }***.
-* ***Shopping Cart***, represented by the ***"<Cart />"***: Rendering of the selected products in ***{path="/cart"}***
+* **Home**, represented by the **< ItemListContainer />**: Render of all products in **{path="/"}**.
+* **Categories**, represented by the **< ItemListContainer />**: Render of the filtered products in **{path="/:category"}**.
+* **Product Detail**, represented by the **< ItemDetailContainer/>**: Render of the selected product + purchase of the product in **{path="/:category/:id" }**.
+* **Shopping Cart**, represented by the **"< Cart />**: Rendering of the selected products in **{path="/cart"}**.
 
 > These sections are applied in the
-> component ***"<Routes />"***, which is called
-> from the parent component of the project: ***"<App />"***.
+> component ***< Routes />***, which is called
+> from the parent component of the project: ***< App />***.
 
 
 In turn, the project has other subcomponents that drive and advocate for the perfect functioning of the App:
-* ***"<Brand />":*** Displays the project header.
-* "<Navbar />": Represents the different categories, next to the ***"<CartWidge />"*** from where you can enter the Cart.
-* ***"<ItemList />":***: Maps the products in the Home and in the categories.
-* ***"<Item />":*** Individual product rendered in the Home and in the categories.
-* ***"<ItemDetail />":*** Shows the detail of the selected product.
-* ***"<ItemCount />":*** Representation of the buttons to add, subtract and select product.
-* ***"<CartItem />":*** Renders the cards of the selected products.
-* ***"<Form />":*** Presents the inputs with the personal data for the validation of the purchase.
-* ***"<Payment />":*** Credit card render -created with [react-credit-cards-2](https://www.npmjs.com/package/react-credit-cards -2)-.
-* ***"<Spinner />":*** Representation of the loading as a transition between components.
-* ***"<Footer />":*** Footer.
+* **< Brand />:** Displays the project header.
+* "< Navbar />": Represents the different categories, next to the **< CartWidge />** from where you can enter the Cart.
+* **< ItemList />:**: Maps the products in the Home and in the categories.
+* **< Item />:** Individual product rendered in the Home and in the categories.
+* **< ItemDetail />:** Shows the detail of the selected product.
+* **< ItemCount />:** Representation of the buttons to add, subtract and select product.
+* **< CartItem />:** Renders the cards of the selected products.
+* **< Form />:** Presents the inputs with the personal data for the validation of the purchase.
+* **< Payment />:** Credit card render -created with [react-credit-cards-2](https://www.npmjs.com/package/react-credit-cards -2)-.
+* **< Spinner />:** Representation of the loading as a transition between components.
+* **< Footer />:** Footer.
 
 ##### Custom Hooks:
 * useCount(): States and functions necessary for the operation of ItemCount.
@@ -196,6 +198,8 @@ Instructions for cloning a project [here](https://docs.github.com/es/repositorie
 
 ## Created by
 
-Martin Nicolas Parolari
+const **Martín** = (**Nicolás**) => {
+    console.log(**Parolari**)
+};
 
 **Only the beginning...**
