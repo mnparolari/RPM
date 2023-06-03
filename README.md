@@ -140,7 +140,7 @@ In turn, the project has other subcomponents that drive and advocate for the per
 * **< ItemCount />:** Representation of the buttons to add, subtract and select product.
 * **< CartItem />:** Renders the cards of the selected products.
 * **< Form />:** Presents the inputs with the personal data for the validation of the purchase.
-* **< Payment />:** Credit card render -created with [react-credit-cards-2](https://www.npmjs.com/package/react-credit-cards -2)-.
+* **< Payment />:** Credit card render -created with [react-credit-cards-2](https://www.npmjs.com/package/react-credit-cards-2)-.
 * **< Spinner />:** Representation of the loading as a transition between components.
 * **< Footer />:** Footer.
 
