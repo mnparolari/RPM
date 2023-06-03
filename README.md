@@ -133,7 +133,7 @@ The project has 4 main sections:
 
 In turn, the project has other subcomponents that drive and advocate for the perfect functioning of the App:
 * **< Brand />:** Displays the project header.
-* "< Navbar />": Represents the different categories, next to the **< CartWidge />** from where you can enter the Cart.
+* **< Navbar />**: Represents the different categories, next to the **< CartWidge />** from where you can enter the Cart.
 * **< ItemList />:**: Maps the products in the Home and in the categories.
 * **< Item />:** Individual product rendered in the Home and in the categories.
 * **< ItemDetail />:** Shows the detail of the selected product.
