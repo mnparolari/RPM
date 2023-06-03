@@ -7,12 +7,17 @@ import twitter from '../../assets/img/twitter.png';
 import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
+
+    const goToUp = () => {
+        window.scrollTo(0, 0)
+    }
+
     return (
         <footer className="main-footer">
             <div className="container-footer">
                 <div className="row-footer">
                     <div className="col-footer">
-                        <NavLink to={`/`} className="brand-logo"><img src={logo} className="App-logo-footer" alt="logo" /></NavLink>
+                        <NavLink onClick={goToUp} className="brand-logo"><img src={logo} className="App-logo-footer" alt="logo" /></NavLink>
                     </div>
                     <div className="col-footer">
                         <p style={{ fontWeight: "bold", fontSize: "0.8rem", color: "#DED7B3ff" }}>Desarrollado por: Martín Parolari</p>

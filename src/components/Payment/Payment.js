@@ -56,7 +56,7 @@ const Payment = (props) => {
             MySwalFour.fire({
                 icon: 'error',
                 title: 'Oops... ¡Hay datos incorrectos!',
-                text: 'Revisá estar ingresando los dieciséis (16) números de tu tarjeta, los cuatro (4) dígitos para la fecha de vencimiento y que tu código de seguridad sea de tres (3) o cuatro (4) dígitos.',
+                text: 'Revisá estar ingresando los dieciséis (16) números de tu tarjeta, los cuatro (4) dígitos para la fecha de vencimiento y/o que tu código de seguridad sea de tres (3) o cuatro (4) dígitos.',
             });
         } else {
             const MySwalOne = withReactContent(Swal)

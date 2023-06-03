@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './itemDetailStyle.css';
 import useCount from '../Hooks/useCount';
 import { ToastContainer, toast } from 'react-toastify';
@@ -14,17 +14,33 @@ const ItemCount = (props) => {
         addToCart({ id, title, band, price, pictureUrl, quantity })
     };
 
+    const [isProductAdded, setIsProductAdded] = useState(false)
+
     const toastify = () => {
-        toast.success('Agregando producto/s...', {
-            position: "bottom-left",
-            autoClose: 1500,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-            theme: "colored"
-        });
+        if (!isProductAdded) {
+            setIsProductAdded(true);
+            toast.success('Agregando producto/s...', {
+                position: "bottom-left",
+                autoClose: 1500,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "light"
+            });
+        } else {
+            toast.error('¡Producto ya agregado!', {
+                position: "bottom-left",
+                autoClose: 1500,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "light"
+            });
+        }
     };
 
     const onClickHandler = () => {
@@ -56,7 +72,7 @@ const ItemCount = (props) => {
                     pauseOnFocusLoss
                     draggable
                     pauseOnHover
-                    theme="colored"
+                    theme="light"
                     toastStyle={{ backgroundColor: "#000", color: "#DED7B3ff" }}
                 />
             </div>

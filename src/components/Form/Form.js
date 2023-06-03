@@ -72,7 +72,7 @@ const Form = (props) => {
             </form>
             <Link onClick={handleSubmit} type= "submit" className="waves-effect waves-light btn-small" id="btn-autentification">Validar datos<i className="small material-icons">verified_user</i></Link>
             {validation &&
-                <h6 style={{ color: "green", marginBottom: "30px"}}>Datos validados correctamente<i className="x-small material-icons">check</i></h6>
+                <h6 style={{ color: "green", marginBottom: "20px"}}>Datos validados correctamente<i className="x-small material-icons">check</i></h6>
             }
         </div>
     )
