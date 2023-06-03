@@ -14,11 +14,11 @@ const ItemCount = (props) => {
         addToCart({ id, title, band, price, pictureUrl, quantity })
     };
 
-    const [isProductAdded, setIsProductAdded] = useState(isInCart(id))
+    const [isInCartToast, setIsInCartToast] = useState(isInCart(id))
 
     const toastify = () => {
-        if (!isProductAdded) {
-            setIsProductAdded(true);
+        if (!isInCartToast) {
+            setIsInCartToast(true);
             toast.success('Agregando producto/s...', {
                 position: "bottom-left",
                 autoClose: 1500,

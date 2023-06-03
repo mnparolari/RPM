@@ -22,8 +22,8 @@ const ItemDetail = ({ prod }) => {
                 <div className="detail-textBox">
                     <h4 className="detail-title">{title.toUpperCase()} - {band.toUpperCase()}</h4>
                     <h5 className="detail-price">${price.toLocaleString()}</h5>
-                    <h6>Detalles: <br /></h6>
-                    <p className="detail-detail">{detail}</p>
+                    <h6>DETALLES: <br /></h6>
+                    <p className="detail-detail">{detail.toUpperCase()}</p>
                     <ItemCount initial={1} stock={stock} addToCart={addToCart} prod={prod} isInCart={isInCart} />
                     {cartList.length > 0 &&
                         <div>
@@ -35,8 +35,8 @@ const ItemDetail = ({ prod }) => {
                 </div>
             </div>
             <div className="detail-descriptionBox">
-                <h5 className="detail-descriptionTitle">Descripción: <br /></h5>
-                <p>{description}</p>
+                <h5 className="detail-descriptionTitle">DESCRIPCIÓN: <br /></h5>
+                <p >{description.toUpperCase()}</p>
             </div>
         </div>
     )

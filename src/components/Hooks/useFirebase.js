@@ -16,7 +16,7 @@ const useFetchLoading = () => {
         const MySwalError = withReactContent(Swal)
         MySwalError.fire({
             icon: 'error',
-            title: 'Oops... ¡Ocurrió un error!',
+            title: '¡Oops... Ocurrió un error!',
             text: 'Refrescá y volvé a intentarlo.',
         });
     };
@@ -35,7 +35,7 @@ const useFetchLoading = () => {
                         setProd(docs.filter((res) => res.category === category))
                     };
                     setLoading(false);
-                }, 200);
+                }, 500);
             } catch (error) {
                 handleError(error);
             };

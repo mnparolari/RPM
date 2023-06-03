@@ -48,14 +48,14 @@ const Payment = (props) => {
             const MySwalThree = withReactContent(Swal)
             MySwalThree.fire({
                 icon: 'error',
-                title: 'Oops... ¡Hay datos sin completar!',
+                title: '¡Oops... Hay datos sin completar!',
                 text: 'Debés completarlos para finalizar el pago',
             });
         } else if ((number.length < 16) || (expiry.length < 4) || (cvc.length < 3)) {
             const MySwalFour = withReactContent(Swal)
             MySwalFour.fire({
                 icon: 'error',
-                title: 'Oops... ¡Hay datos incorrectos!',
+                title: '¡Oops... Hay datos incorrectos!',
                 text: 'Revisá estar ingresando los dieciséis (16) números de tu tarjeta, los cuatro (4) dígitos para la fecha de vencimiento y/o que tu código de seguridad sea de tres (3) o cuatro (4) dígitos.',
             });
         } else {
@@ -87,7 +87,7 @@ const Payment = (props) => {
             setTimeout(() => {
                 const MySwalFive = withReactContent(Swal)
                 MySwalFive.fire({
-                    title: <strong>Tu número de órden es:</strong>,
+                    title: <strong>Tu número de órden:</strong>,
                     html: `${orderNumber}`,
                     position: 'center',
                     icon: 'success',
